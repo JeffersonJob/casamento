@@ -82,6 +82,18 @@ main p{
     text-indent: 10px;
     text-align: justify;
 }
+aside{
+    background-image: linear-gradient(to right, transparent, #dd6322, transparent);
+    font-family: 'peristiwa', serif;
+    font-weight: lighter;
+    font-size: 1.5em;
+    text-shadow: 3px 3px 3px aliceblue;
+    width: 250px;
+    padding: 10px;
+    line-height: 1.5em;
+    margin: 10px 0px;
+
+}
 .padrinhos{
     padding: 10px 0px 0px 0px;
     text-decoration: underline;
