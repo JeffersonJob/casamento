@@ -98,9 +98,11 @@ aside{
     padding: 10px 0px 0px 0px;
     text-decoration: underline;
 }
-.imagem{
-    border-color: var(--cor1);
-    border-style: ridge;
+img{
+    padding: 10px;
+}
+.image{
+    text-align: center;
 }
 .frase{
     text-align: center;
