@@ -101,6 +101,7 @@ footer{
     padding: 5px;
     text-align: center;
     border-radius: 10px;
+    font-size: 0.8em;
 }
 footer a{
     color: var(--cor3);
