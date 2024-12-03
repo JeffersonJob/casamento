@@ -1,0 +1,108 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'birds';
+    src: url(../fontes/Birds\ of\ Paradise\ ©\ PERSONAL\ USE\ ONLY.ttf) format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'peristiwa';
+    src: url(../fontes/Peristiwa.otf) format('opentype');
+    font-weight: normal;
+}
+:root{
+    --cor1: #893524;
+    --cor2: #AD4828;
+    --cor3: #D2510C;
+    --cor4: #CA875A;
+    --cor5: #EDAE61;
+    --cor6: #7B754E;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: var(--cor1);
+}
+header{
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor2), var(--cor1), var(--cor4));
+    box-shadow: 0px 3px 20px 7px rgba(0, 0, 0, 0.521);
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+header h1{
+    color: #daa520;
+    font-family: 'birds', serif;
+    font-weight: lighter;
+    font-size: 4em;
+    text-align: center;
+    margin: 0px;
+    padding: 40px;
+    text-shadow: 3px 3px 3px black;
+    text-decoration: underline;
+    max-width: 1000px;
+}
+header p{
+    color: var(--cor5);
+    text-shadow: 2px 2px 2px black;
+    font-family: 'birds', serif;
+    font-weight: lighter;
+    font-size: 1.7em;
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+main{
+    background-color: var(--cor4);
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+}
+main h1{
+    background-image: linear-gradient(to right, transparent, #dd6322, transparent);
+    font-family: 'peristiwa', serif;
+    font-weight: normal;
+    font-size: 3.5em;
+    text-align: center;
+    text-shadow: 3px 3px 3px aliceblue;
+}
+main p{
+    font-family: 'birds', serif;
+    font-weight: lighter;
+    font-size: 1.3em;
+    line-height: 1.4em;
+    padding: 20px;
+    text-indent: 10px;
+    text-align: justify;
+}
+.padrinhos{
+    padding: 10px 0px 0px 0px;
+    text-decoration: underline;
+}
+.imagem{
+    border-color: var(--cor1);
+    border-style: ridge;
+}
+.frase{
+    text-align: center;
+    padding: 30px;
+    font-weight: lighter;
+    text-shadow: 2px 2px 2px aliceblue;
+}
+footer{
+    background-color: var(--cor5);
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+footer a{
+    color: var(--cor3);
+    text-decoration: none;
+}
