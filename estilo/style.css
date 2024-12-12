@@ -23,6 +23,8 @@
 }
 body{
     background-color: var(--cor1);
+    background-image: url(../imagens/Design\ sem\ nome.png);
+    background-position: center center;
 }
 header{
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor2), var(--cor1), var(--cor4));
@@ -61,7 +63,7 @@ header p{
     padding: 10px;
 }
 main{
-    background-color: var(--cor4);
+    background-color: #ca875a93;
     min-width: 300px;
     max-width: 1000px;
     padding: 20px;
@@ -91,7 +93,8 @@ aside{
     font-weight: lighter;
     font-size: 2em;
     text-shadow: 3px 3px 3px aliceblue;
-    width: 350px;
+    min-width: 300px;
+    max-width: 350px;
     padding: 10px;
     line-height: 1.5em;
     margin: 10px 0px 10px 0px;
@@ -106,9 +109,8 @@ ul{
 }
 img{
     padding: 10px;
-}
-.image{
-    text-align: center;
+    margin: auto;
+    display: block;
 }
 .frase{
     text-align: center;
