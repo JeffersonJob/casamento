@@ -63,6 +63,24 @@ header p{
     margin: auto;
     padding: 10px;
 }
+nav{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    background-image: linear-gradient(to right, transparent, #dd6322, transparent);
+    padding: 10px;
+}
+nav a{
+    text-decoration: none;
+    padding: 10px;
+    color: #5f261b;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(240, 248, 255, 0.705);
+}
+nav a:hover{
+    text-decoration: underline;
+    background-color: var(--cor3);
+}
 main{
     background-color: #ca875a93;
     min-width: 300px;
@@ -94,8 +112,8 @@ aside{
     font-weight: lighter;
     font-size: 2em;
     text-shadow: 3px 3px 3px aliceblue;
-    min-width: 300px;
     max-width: 350px;
+    min-width: 300px;
     padding: 10px;
     line-height: 1.5em;
     margin: 10px 0px 10px 0px;
@@ -124,9 +142,30 @@ footer{
     padding: 5px;
     text-align: center;
     border-radius: 10px;
-    font-size: 0.8em;
+    font-size: 0.5em;
 }
 footer a{
     color: var(--cor3);
+    text-decoration: none;
+}
+.casais{
+    text-align: center;
+    list-style-position: inside;
+    font-family: 'peristiwa', serif;
+    font-weight: normal;
+    font-size: 1.5em;
+    background-color: #ca875ac0;
+    padding: 10px;
+    text-decoration: underline;
+}
+h2{
+    padding: 5px;
+    text-align: center;
+}
+h2 a{
+    font-size: 0.9em;
+    color: var(--cor1);
+}
+h2 a:hover{
     text-decoration: none;
 }
