@@ -9,6 +9,16 @@
     src: url(../fontes/Peristiwa.otf) format('opentype');
     font-weight: normal;
 }
+@font-face {
+    font-family: 'daydream';
+    src: url(../fontes/daydream\ FREE.ttf) format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'glacial';
+    src: url(../fontes/GlacialIndifference-Regular.otf) format('opentype');
+    font-weight: normal;
+}
 :root{
     --cor1: #893524;
     --cor2: #AD4828;
@@ -22,16 +32,14 @@
     padding: 0px;
 }
 body{
-    background-color: var(--cor1);
-    background-image: url(../imagens/Design\ sem\ nome.png);
-    background-position: center center;
-    background-attachment: fixed;
+    background-color: #fff8f2;
 }
 header{
-    background-image: linear-gradient(to bottom, var(--cor3), var(--cor2), var(--cor1), var(--cor4));
-    background-image: url(../imagens/header.jpg);
-    background-size: cover;
+    background-image: url(../imagens/logo1_jpg.jpg);
+    background-repeat: no-repeat;
     background-position: center center;
+    background-size: 400px;
+    background-color: #fff8f2;
     box-shadow: 0px 3px 20px 7px rgba(0, 0, 0, 0.521);
     min-width: 300px;
     max-width: 1000px;
@@ -41,15 +49,14 @@ header{
 
 }
 header h1{
-    color: #daa520;
-    font-family: 'birds', serif;
+    color: #c45824;
+    font-family: 'daydream', serif;
     font-weight: lighter;
     font-size: 5em;
     text-align: center;
     margin: 0px;
     padding: 40px;
     text-shadow: 3px 3px 3px black;
-    text-decoration: underline;
     max-width: 1000px;
 }
 header p{
@@ -67,7 +74,7 @@ nav{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     text-decoration: none;
-    background-image: linear-gradient(to right, transparent, #dd6322, transparent);
+    background-image: linear-gradient(to right, transparent, #c45824, transparent);
     padding: 10px;
 }
 nav a{
@@ -83,7 +90,7 @@ nav a:hover{
     background-color: var(--cor3);
 }
 main{
-    background-color: #ca875a93;
+    background-color: #fff8f2;
     min-width: 300px;
     max-width: 1000px;
     padding: 20px;
@@ -91,10 +98,10 @@ main{
     border-radius: 0px 0px 10px 10px;
 }
 main h1{
-    background-image: linear-gradient(to right, transparent, #dd6322, transparent);
-    font-family: 'peristiwa', serif;
+    background-image: linear-gradient(to right, transparent, #c45824, transparent);
+    font-family: 'daydream', serif;
     font-weight: normal;
-    font-size: 4em;
+    font-size: 3em;
     text-align: center;
     text-shadow: 3px 3px 3px aliceblue;
 }
@@ -122,15 +129,28 @@ main p{
 ul{
     text-align: justify;
 }*/
+
+ul{
+    border-radius: 20px;
+    margin: 10px 0px;
+    background-color: #c45824;
+}
+
 .padrinhos{
     padding: 10px 0px 0px 0px;
     text-decoration: underline;
 }
 img{
-    padding: 10px;
+    padding: 0px;
     margin: auto;
     display: block;
 }
+
+.imagem1{
+    display: block;
+    margin: auto;
+}
+
 .frase{
     text-align: center;
     padding: 30px;
@@ -149,17 +169,19 @@ footer a{
     text-decoration: none;
 }
 .casais{
-    text-align: center;
+    color: aliceblue;
+    text-shadow: 2px 2px black;
+
     list-style-position: inside;
-    font-family: 'peristiwa', serif;
+    font-family: 'glacial', serif;
     font-weight: normal;
     font-size: 1.5em;
-    background-color: #ca875ac0;
+    background-color: #c45924c2;
     padding: 10px;
     text-decoration: underline;
 }
 .local{
-    background-image: linear-gradient(to right, transparent, #dd6322, transparent);
+    background-image: linear-gradient(to right, transparent, #c45824, transparent);
     text-align: center;
     list-style-position: inside;
     font-family: 'peristiwa', serif;
@@ -170,12 +192,14 @@ footer a{
     text-decoration: underline;
 }
 .paleta{
+    margin: 10px 0px;
+    border-radius: 10px;
     text-align: center;
     list-style-position: inside;
     font-family: 'peristiwa', serif;
     font-weight: normal;
     font-size: 1.5em;
-    background-color: #ca875ac0;
+    background-color: #c45924c2;
     padding: 10px;
     text-decoration: underline;
 }
