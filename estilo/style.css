@@ -105,6 +105,9 @@ main h1{
     text-align: center;
     text-shadow: 3px 3px 3px aliceblue;
 }
+main > h1 > a {
+    color: black;
+}
 main p{
     font-family: 'birds', serif;
     font-weight: lighter;
@@ -157,6 +160,21 @@ img{
     font-weight: lighter;
     text-shadow: 2px 2px 2px aliceblue;
 }
+
+aside {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+aside > p {
+    margin-bottom: 10px;
+    font-size: .7em;
+}
+
+aside > a {
+    color: red;
+}
+
 footer{
     background-color: var(--cor5);
     padding: 5px;
