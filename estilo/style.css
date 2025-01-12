@@ -46,6 +46,7 @@ header{
     margin: auto;
     padding: 20px;
     border-radius: 10px 10px 0px 0px;
+    height:300px;
 
 }
 header h1{
@@ -152,6 +153,7 @@ img{
 .imagem1{
     display: block;
     margin: auto;
+    padding: 50px 0px;
 }
 
 .frase{
